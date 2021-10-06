@@ -1,0 +1,44 @@
+.background1 {
+  position: absolute;
+  width: 547px;
+  height: 50px;
+  left: 0px;
+  top: 2094px;
+  margin-top: 171px;
+  background: #084154;
+}
+
+.background2 {
+  position: absolute;
+  width: 1373px;
+  height: 50px;
+  left: 547px;
+  top: 2094px;
+  margin-top: 171px;
+  background: #3ec6e0;
+}
+
+.logo {
+  position: absolute;
+  width: 42px;
+  height: 28px;
+  left: 461px;
+  top: 13px;
+}
+
+.textoLogo {
+  position: absolute;
+  width: 263px;
+  height: 16px;
+  left: 35px;
+  top: 17px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #ffffff;
+}

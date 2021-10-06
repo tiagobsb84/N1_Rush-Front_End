@@ -1,0 +1,263 @@
+.header {
+  position: relative;
+  width: 74.31rem;
+  height: 2.18rem;
+  left: 23.31rem;
+  top: 2.75rem;
+
+  background: black;
+}
+
+.divisor2 {
+  position: absolute;
+  width: 0px;
+  height: 32px;
+  left: 68.68rem;
+  top: 0px;
+
+  border: 1px solid var(--light);
+}
+
+.divisor1 {
+  position: absolute;
+  width: 0px;
+  height: 32px;
+  left: 57.62rem;
+  top: 0px;
+
+  border: 1px solid var(--light);
+}
+
+.shopping2 {
+  position: absolute;
+  width: 0.5625rem;
+  height: 1rem;
+  left: 96.25rem;
+  top: 3.3125rem;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: var(--light);
+
+  z-index: 1;
+}
+
+.shoppingCirculo {
+  position: absolute;
+  width: 1.4375rem;
+  height: 1.4375rem;
+  left: 95.75rem;
+  top: 3.125rem;
+
+  background: var(--primary);
+  border-radius: 11px;
+}
+
+.shoppingIcon {
+  position: absolute;
+  left: 94rem;
+  right: 0;
+  top: 3rem;
+  bottom: 0%;
+
+  background: var(--light);
+}
+
+.buscar {
+  position: absolute;
+  width: 3.375rem;
+  height: 1rem;
+  left: 85.9375rem;
+  top: 3.4375rem;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: var(--light);
+}
+
+.pesquisar {
+  position: absolute;
+  left: 83rem;
+  right: 0%;
+  top: 3rem;
+  bottom: 0%;
+
+  background: var(--light);
+}
+
+.contato {
+  position: absolute;
+  width: 3.9375rem;
+  height: 1rem;
+  left: 74.3125rem;
+  top: 3.4375rem;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: var(--light);
+}
+
+.contatoIcon {
+  position: absolute;
+  left: 72rem;
+  right: 18.48%;
+  top: 3rem;
+  bottom: -4.84%;
+
+  background: var(--light);
+  transform: rotate(-21deg);
+}
+
+.hambuguerIcon {
+  position: absolute;
+  left: 23.4rem;
+  top: 2.7rem;
+
+  cursor: pointer;
+}
+
+.titulo {
+  position: absolute;
+  width: 146px;
+  height: 35px;
+  left: 457px;
+  top: 44px;
+}
+
+/*menu hamburguer*/
+
+.itensHamburgue {
+  position: absolute;
+  width: 565px;
+  height: 249px;
+  left: 344px;
+  top: 101.48px;
+  background: var(--dark);
+  border: 2px solid var(--primary);
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 10px 10px 0px var(--primary);
+}
+
+.sombraItensHamburgue {
+  position: absolute;
+  width: 565px;
+  height: 249px;
+  left: 9px;
+  top: 12.48px;
+
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+.indicadoHamburgue {
+  position: absolute;
+  width: 18.37px;
+  height: 18.37px;
+  left: 29.98px;
+  top: -10.01px;
+
+  background: var(--primary);
+  transform: rotate(135deg);
+}
+
+.lutaHamburgue {
+  position: absolute;
+  width: 32px;
+  height: 19px;
+  left: 45px;
+  top: 45px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: var(--light);
+}
+
+.jogosLuta {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 8px;
+  white-space: nowrap;
+  color: var(--light);
+}
+
+.jogosLuta:hover {
+  width: 160px;
+  cursor: pointer;
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+.tituloJogo {
+  margin-bottom: 19px;
+  margin-left: 10px;
+}
+
+.tituloJogos {
+  margin-bottom: 19px;
+}
+
+.tituloJogos {
+  position: absolute;
+  width: 120px;
+  height: 19px;
+  left: 9px;
+  top: -42px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--light);
+}
+
+.aventuraHamburgue {
+  position: absolute;
+  width: 79px;
+  height: 124px;
+  left: 231px;
+  top: 86px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: var(--light);
+}
+
+.CorridaHamburgue {
+  position: absolute;
+  width: 79px;
+  height: 124px;
+  left: 413px;
+  top: 86px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: var(--light);
+}

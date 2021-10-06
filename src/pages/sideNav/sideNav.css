@@ -1,0 +1,85 @@
+.sideNav {
+  position: absolute;
+  width: 63px;
+  height: 384px;
+  left: 1857px;
+  top: 212px;
+
+  background: var(--primary);
+  border-radius: 0px 0px 0px 10px;
+}
+
+.sideBackgroundBottom {
+  position: absolute;
+  width: 63px;
+  height: 84px;
+  left: 0;
+  top: 300px;
+
+  background: var(--dark);
+  border-radius: 0px 0px 0px 10px;
+}
+
+.sidePages {
+  position: absolute;
+  width: 31px;
+  height: 16px;
+  left: 17px;
+  top: 23px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: var(--light);
+}
+
+.setaVolta {
+  position: absolute;
+  left: 17px;
+  right: -0.05%;
+  top: 49px;
+  bottom: -0.01%;
+  width: 9px;
+  background: var(--light);
+}
+
+.setaAvanca {
+  position: absolute;
+  left: 31px;
+  right: -0.01%;
+  top: 49px;
+  bottom: -0.05%;
+  width: 9px;
+  background: var(--light);
+}
+
+.linhaSide {
+  position: absolute;
+  width: 77px;
+  height: 0px;
+  left: -11px;
+  top: 234px;
+
+  border: 1px solid var(--light);
+  transform: rotate(90deg);
+}
+
+.textSide {
+  position: absolute;
+  width: 114px;
+  height: 9.98px;
+  left: -26px;
+  top: 94px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--light);
+
+  transform: rotate(90deg);
+}

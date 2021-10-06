@@ -1,0 +1,152 @@
+.produtos-em-destaque {
+  position: absolute;
+  width: 22.375rem;
+  height: 2.625rem;
+  left: 23.5625rem;
+  top: 74.9375rem;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: var(--dark);
+}
+
+.card1 {
+  position: absolute;
+  width: 350px;
+  height: 602px;
+  left: 402px;
+  top: 1321px;
+
+  box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.07);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgProduto {
+  width: 203px;
+  height: 315px;
+}
+
+.linhaProduto {
+  position: absolute;
+  width: 350px;
+  height: 2px;
+  left: 0px;
+  top: 600px;
+  background: var(--primary);
+}
+
+.precoProduto {
+  position: absolute;
+  width: 84px;
+  height: 21px;
+  left: 55px;
+  top: 678px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: var(--dark);
+}
+
+.tabalaPreco {
+  z-index: 1;
+}
+
+.backgroundPreco {
+  position: absolute;
+  width: 350px;
+  height: 185px;
+  left: 0;
+  top: 604px;
+
+  background: #f5f5f5;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.tituloProduto {
+  position: absolute;
+  width: 58px;
+  height: 16px;
+  left: 57px;
+  top: 627px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--dark);
+}
+
+.backgroundCompra {
+  position: absolute;
+  width: 240px;
+  height: 52px;
+  left: 49px;
+  top: 721px;
+  background: var(--primary);
+  border-radius: 5px;
+
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.backgroundCompra:hover {
+  background: var(--dark);
+}
+
+.comprar {
+  position: absolute;
+  width: 142px;
+  height: 17px;
+  left: 50px;
+  top: 16px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: var(--light);
+  cursor: pointer;
+}
+
+.card2 {
+  position: absolute;
+  width: 350px;
+  height: 602px;
+  left: 785px;
+  top: 1321px;
+
+  box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.07);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card3 {
+  position: absolute;
+  width: 350px;
+  height: 602px;
+  left: 1168px;
+  top: 1321px;
+
+  box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.07);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

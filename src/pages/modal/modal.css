@@ -1,0 +1,58 @@
+.backgroundModal {
+  position: absolute;
+  width: 1920px;
+  height: 2316px;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  background: rgba(8, 65, 84, 0.62);
+}
+
+.pedidoSucesso {
+  position: absolute;
+  width: 400.21px;
+  height: 500px;
+  left: 759.4px;
+  top: 831px;
+
+  background: var(--light);
+  border-radius: 5px;
+}
+
+.fechar {
+  position: absolute;
+  left: 86.33%;
+  right: 39.95%;
+  top: 4.33%;
+  bottom: 24.23%;
+  background: var(--light);
+  cursor: pointer;
+}
+
+.mario {
+  position: absolute;
+  width: 217.11px;
+  height: 279px;
+  left: 156.44px;
+  top: 370px;
+
+  background: url("../../assets/img/mario.jpg") no-repeat;
+}
+
+.textoModal {
+  /* Pedido realizado com sucesso! */
+
+  position: absolute;
+  width: 245.13px;
+  height: 79px;
+  left: 76.43px;
+  top: 222px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #084154;
+}

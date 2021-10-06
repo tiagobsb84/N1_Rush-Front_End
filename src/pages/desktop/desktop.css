@@ -1,0 +1,201 @@
+.container {
+  position: relative;
+  width: 1920px;
+  height: 2144px;
+
+  background: var(--light);
+}
+
+/*Banner-zelda*/
+.zelda-banner {
+  position: absolute;
+  width: 627px;
+  height: 368px;
+  left: 323px;
+  top: 691px;
+
+  background: url("../../assets/img/zelda_banner.jpg");
+}
+
+.rectangle10 {
+  position: absolute;
+  width: 627px;
+  height: 61px;
+  left: 323px;
+  top: 1055px;
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+.rectangle11 {
+  position: absolute;
+  width: 11px;
+  height: 61px;
+  left: 323px;
+  top: 1055px;
+
+  background: var(--dark);
+  border-radius: 0px 0px 0px 5px;
+}
+
+.line4 {
+  position: absolute;
+  width: 248px;
+  height: 0px;
+  left: 676px;
+  top: 1086px;
+
+  border: 1px solid var(--dark);
+}
+
+.line4-description {
+  position: absolute;
+  width: 299px;
+  height: 19px;
+  left: 353px;
+  top: 1076px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: var(--dark);
+}
+
+/*Banner-sekira*/
+.sekira-banner {
+  position: absolute;
+  width: 627px;
+  height: 368px;
+  left: 970px;
+  top: 691px;
+
+  background: url("../../assets/img/sekiro_banner.jpg");
+}
+
+.rectangle13 {
+  position: absolute;
+  width: 10px;
+  height: 61px;
+  left: 970px;
+  top: 1055px;
+
+  background: var(--dark);
+  border-radius: 0px 0px 0px 5px;
+}
+
+.line5 {
+  position: absolute;
+  width: 247px;
+  height: 0px;
+  left: 1323px;
+  top: 1086px;
+
+  border: 1px solid var(--dark);
+}
+
+.line5-description {
+  position: absolute;
+  width: 217px;
+  height: 19px;
+  left: 999px;
+  top: 1076px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: var(--dark);
+}
+
+.rectangle12 {
+  position: absolute;
+  width: 627px;
+  height: 61px;
+  left: 970px;
+  top: 1055px;
+
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+.description-mortalKombat {
+  position: absolute;
+  width: 420px;
+  height: 163px;
+  left: 1015px;
+  top: 373px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: right;
+  color: var(--light);
+}
+
+/* ,99 */
+.segundo-preco {
+  position: absolute;
+  width: 40px;
+  height: 33px;
+  left: 1388px;
+  top: 278px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: var(--primary);
+}
+
+/* R$ 299 */
+.primeiro-preco {
+  position: absolute;
+  width: 226px;
+  height: 82px;
+  left: 1162px;
+  top: 263px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 82px;
+
+  color: var(--primary);
+}
+
+/* MORTAL KOMBAT */
+.mortal-Kombat {
+  position: absolute;
+  width: 384px;
+  height: 54px;
+  left: 1051px;
+  top: 209px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 54px;
+
+  color: var(--light);
+}
+
+.banner-mortalKombat {
+  position: absolute;
+  width: 1920px;
+  height: 840px;
+  left: 0px;
+  top: 0px;
+
+  background: url("../../assets/img/principal_banner_desktop.jpg");
+}
