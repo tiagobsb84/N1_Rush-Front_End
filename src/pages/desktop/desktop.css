@@ -1,20 +1,70 @@
-.container {
-  position: relative;
-  width: 1920px;
-  height: 2144px;
+header {
+  background-image: url("../../assets/img/principal_banner_desktop.jpg");
+  height: 840px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  background: var(--light);
+.centralInfo {
+  width: 1274px;
+}
+
+.zelda {
+  position: relative;
 }
 
 /*Banner-zelda*/
+
+.banner-container1, .banner-container2 {
+  position: relative;
+}
+
 .zelda-banner {
-  position: absolute;
   width: 627px;
   height: 368px;
-  left: 323px;
-  top: 691px;
-
   background: url("../../assets/img/zelda_banner.jpg");
+}
+
+.banner-card {
+  width: 627px;
+  margin-bottom: 20px;
+}
+
+.banner-card-footer {
+  width: 627px;
+  height: 61px;
+  background: var(--primary);
+  border-radius: 5px;
+  border-left: 11px solid var(--dark);
+  /* border-radius: 0px 0px 0px 5px; */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--dark);
+  padding: 20px;
+}
+
+.card-footer-line {
+  display: block;
+  width: 248px;
+  border: 1px solid var(--dark);
+  float: right;
+  margin-top: 10px;
+}
+
+.banner {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: right;
+  margin-top: 125px;
+  align-items: end;
 }
 
 .rectangle10 {
@@ -33,7 +83,6 @@
   height: 61px;
   left: 323px;
   top: 1055px;
-
   background: var(--dark);
   border-radius: 0px 0px 0px 5px;
 }
@@ -44,7 +93,6 @@
   height: 0px;
   left: 676px;
   top: 1086px;
-
   border: 1px solid var(--dark);
 }
 
@@ -54,24 +102,19 @@
   height: 19px;
   left: 353px;
   top: 1076px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
-
   color: var(--dark);
 }
 
 /*Banner-sekira*/
+
 .sekira-banner {
-  position: absolute;
   width: 627px;
   height: 368px;
-  left: 970px;
-  top: 691px;
-
   background: url("../../assets/img/sekiro_banner.jpg");
 }
 
@@ -81,7 +124,6 @@
   height: 61px;
   left: 970px;
   top: 1055px;
-
   background: var(--dark);
   border-radius: 0px 0px 0px 5px;
 }
@@ -92,7 +134,6 @@
   height: 0px;
   left: 1323px;
   top: 1086px;
-
   border: 1px solid var(--dark);
 }
 
@@ -102,13 +143,11 @@
   height: 19px;
   left: 999px;
   top: 1076px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
-
   color: var(--dark);
 }
 
@@ -118,18 +157,15 @@
   height: 61px;
   left: 970px;
   top: 1055px;
-
   background: var(--primary);
   border-radius: 5px;
 }
 
 .description-mortalKombat {
-  position: absolute;
   width: 420px;
   height: 163px;
   left: 1015px;
   top: 373px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -140,62 +176,69 @@
 }
 
 /* ,99 */
+
 .segundo-preco {
-  position: absolute;
   width: 40px;
   height: 33px;
-  left: 1388px;
-  top: 278px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 28px;
   line-height: 33px;
-
   color: var(--primary);
 }
 
 /* R$ 299 */
-.primeiro-preco {
-  position: absolute;
-  width: 226px;
-  height: 82px;
-  left: 1162px;
-  top: 263px;
 
+.primeiro-preco {
+  height: 82px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 70px;
   line-height: 82px;
-
   color: var(--primary);
+  display: inline-block;
 }
 
 /* MORTAL KOMBAT */
+
 .mortal-Kombat {
-  position: absolute;
   width: 384px;
   height: 54px;
-  left: 1051px;
-  top: 209px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 46px;
   line-height: 54px;
-
   color: var(--light);
 }
 
 .banner-mortalKombat {
-  position: absolute;
-  width: 1920px;
+  max-width: 1920px;
   height: 840px;
   left: 0px;
   top: 0px;
-
   background: url("../../assets/img/principal_banner_desktop.jpg");
+}
+
+.banner-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (max-width: 720px) {
+  .card {
+    width: 236.5px;
+    height: 423px;
+    left: 69px;
+    top: 1055px;
+  }
+
+  .banner-section {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+  
 }

@@ -7,7 +7,7 @@ import Nav from './pages/nav/nav';
 import Produto from './pages/produtos/produto';
 import Footer from './pages/footer/footer';
 import SideNav from './pages/sideNav/sideNav';
-import Modal from './pages/modal/modal';
+import Contato from './pages/contato/contato';
 
 export default function Routes() {
     return (
@@ -18,7 +18,7 @@ export default function Routes() {
                 <Route path="/produto" component={Produto} />
                 <Route path="/footer" component={Footer} />
                 <Route path="/sidenav" component={SideNav} />
-                <Route path="/sidenav" component={Modal} />
+                <Route path="/contato" component={Contato} />
             </Switch>
         </BrowserRouter>
     )

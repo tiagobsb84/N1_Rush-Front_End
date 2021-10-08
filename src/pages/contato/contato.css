@@ -1,0 +1,157 @@
+.navegacao {
+  max-width: 100%;
+  max-height: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  background: var(--dark);
+  color: var(--light);
+  padding: 1em;
+}
+
+.linkHome {
+  color: var(--light);
+  text-decoration: none;
+  font-size: 1.2em;
+
+  transition: 0.3s;
+}
+
+.linkHome:hover {
+  color: var(--primary);
+}
+
+.tituloContato {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+span {
+  color: var(--primary);
+}
+
+.form {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}
+
+input {
+  width: 308px;
+  padding: 9px;
+  border: 2px solid var(--dark);
+  border-radius: 8px;
+  margin-bottom: 14px;
+}
+
+.formContato {
+  display: grid;
+  gap: 3px;
+}
+
+.topicosContato {
+  display: flex;
+  justify-content: space-around;
+}
+
+.subTitulo {
+  font-size: 32px;
+  margin-bottom: 23px;
+  text-align: center;
+  color: var(--primary);
+  margin-top: 117px;
+}
+
+label {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input {
+  width: 210px;
+  padding: 4px;
+}
+
+.buttonEnviar {
+  padding: 15px;
+  border: none;
+  border-radius: 11px;
+  background: var(--primary);
+  margin-top: 28px;
+  width: 17em;
+  cursor: pointer;
+
+  transition: 0.8s;
+}
+
+.buttonEnviar:hover {
+  background: var(--dark);
+}
+
+.buttonSpan {
+  font-size: 16px;
+  color: var(--light);
+  font-weight: bold;
+}
+
+.background5 {
+  position: absolute;
+  width: 85em;
+  height: 50px;
+  left: 0px;
+  top: 57.42em;
+  width: 35em;
+  background: #084154;
+}
+.logoContato {
+  position: absolute;
+  width: 42px;
+  height: 28px;
+  left: 461px;
+  top: 13px;
+}
+
+.background4 {
+  position: absolute;
+  top: 57.42em;
+  width: 85em;
+  height: 50px;
+  left: 35em;
+
+  background: #3ec6e0;
+}
+
+.textoLogoContato {
+  position: absolute;
+  width: 263px;
+  height: 16px;
+  left: 35px;
+  top: 17px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.labelTextArea {
+  margin-bottom: 5px;
+  font-family: roboto;
+  font-weight: bold;
+}
+
+textarea {
+  border-radius: 7px;
+  border: 2px solid var(--dark);
+}

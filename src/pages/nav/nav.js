@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 
 import './nav.css';
 
@@ -8,70 +9,72 @@ import Contato from '../../assets/img/plane-paner.jpg';
 import Hamburgue from '../../assets/img/tituloHamburguer.jpg';
 import Titulo from '../../assets/svgs/titulo-principal.svg';
 
-export default function Nav() {
+export default function Nav(props) {
     const [mostraMenu, setMostraMenu] = useState(false);
 
     function menu() {
         setMostraMenu(mostraMenu => !mostraMenu);
     }
-
     return (
         <>
-            <div className="header">
-                <p className="divisor2"></p>
-                <p className="divisor1"></p>
-            </div>
-            <div className="navShopping">
-                <p className="shopping2">2</p>
-                <p className="shoppingCirculo"></p>
-                <img className="shoppingIcon" src={Shopping} alt="icone shopping" />
-            </div>
-            <div className="navBuscar">
-                <p className="buscar">BUSCAR</p>
-                <img className="pesquisar" src={Pesquisar} alt="icone pesquisar" />
-            </div>
-            <div className="navContato">
-                <p className="contato">CONTATO</p>
-                <img className="contatoIcon" src={Contato} alt="icone contato" />
-            </div>
-            <div className="navTitulo">
-                <div className="hamburgue">
-                    <img className="hambuguerIcon" onClick={menu} src={Hamburgue} alt="icone hamburguer" />
+            <div className="menuNavegacao">
+                <div className="navTitulo">
+                    <div className="hamburgue">
+                        <img className="hambuguerIcon" onClick={menu} src={Hamburgue} alt="icone hamburguer" />
+                        <img className="titulo" src={Titulo} alt="Titulo" />
+                        {mostraMenu &&
+                            <div className="itensHamburgue">
+                                <div className="sombraItensHambugue"></div>
 
-                    <img className="titulo" src={Titulo} alt="Titulo" />
-                </div>
-            </div>
-            {/*Menu Hamburguer*/}
-            {mostraMenu &&
-                <div className="itensHamburgue">
-                    <div className="sombraItensHambugue"></div>
+                                <dl className="lutaHamburgue">
+                                    <dt className="tituloJogo">luta</dt>
+                                    <dd className="jogosLuta">Mortal Kombat</dd>
+                                    <dd className="jogosLuta">Smash Bros</dd>
+                                    <dd className="jogosLuta">Killer Instict</dd>
+                                    <dd className="jogosLuta">DBZ Kakarot</dd>
+                                </dl>
 
-                    <dl className="lutaHamburgue">
-                        <dt className="tituloJogo">luta</dt>
-                        <dd className="jogosLuta">Mortal Kombat</dd>
-                        <dd className="jogosLuta">Smash Bros</dd>
-                        <dd className="jogosLuta">Killer Instict</dd>
-                        <dd className="jogosLuta">DBZ Kakarot</dd>
-                    </dl>
+                                <dl className="aventuraHamburgue">
+                                    <dt className="tituloJogos">Ação / Aventura</dt>
+                                    <dd className="jogosLuta">GTA V</dd>
+                                    <dd className="jogosLuta">Tomb Raider</dd>
+                                    <dd className="jogosLuta">HALO</dd>
+                                    <dd className="jogosLuta">Call of Duty</dd>
+                                </dl>
 
-                    <dl className="aventuraHamburgue">
-                        <dt className="tituloJogos">Ação / Aventura</dt>
-                        <dd className="jogosLuta">GTA V</dd>
-                        <dd className="jogosLuta">Tomb Raider</dd>
-                        <dd className="jogosLuta">HALO</dd>
-                        <dd className="jogosLuta">Call of Duty</dd>
-                    </dl>
+                                <dl className="CorridaHamburgue">
+                                    <dt className="tituloJogos">Corrida</dt>
+                                    <dd className="jogosLuta">NEED For SPEED</dd>
+                                    <dd className="jogosLuta">Forza Horizon</dd>
+                                </dl>
 
-                    <dl className="CorridaHamburgue">
-                        <dt className="tituloJogos">Corrida</dt>
-                        <dd className="jogosLuta">NEED For SPEED</dd>
-                        <dd className="jogosLuta">Forza Horizon</dd>
-                    </dl>
+                                <div className="indicadoHamburgue">
+                                </div>
+                            </div>
+                        }
 
-                    <div className="indicadoHamburgue">
                     </div>
                 </div>
-            }
+                <div className="navegacoesMenu">
+                    <div className="navContato">
+                        <img className="icon" src={Contato} alt="icone contato" />
+                        <Link to="/contato" className="contato">CONTATO</Link>
+                    </div>
+                    <div className="navBuscar">
+                        <img className="icon" src={Pesquisar} alt="icone pesquisar" />
+                        <p className="buscar">BUSCAR</p>
+                    </div>
+                    <div className="navShopping">
+                        <img className="icon" src={Shopping} alt="iconShopping" />
+                        <p className="shoppingCirculo">{props.vendidos}</p>
+                    </div>
+                </div>
+
+                {/* <div className="header">
+                    <p className="divisor2"></p>
+                    <p className="divisor1"></p>
+                </div> */}
+            </div>
         </>
     )
 }

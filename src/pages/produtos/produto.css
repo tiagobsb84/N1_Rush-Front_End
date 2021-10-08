@@ -1,152 +1,207 @@
 .produtos-em-destaque {
-  position: absolute;
   width: 22.375rem;
   height: 2.625rem;
-  left: 23.5625rem;
-  top: 74.9375rem;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
   font-size: 36px;
   line-height: 42px;
-
   color: var(--dark);
+  margin-bottom: 70px;
 }
 
-.card1 {
+.rectangle23 {
   position: absolute;
+  width: 5.6px;
+  height: 5.6px;
+  left: 349.4px;
+  top: 1226.4px;
+  background: var(--primary);
+  border-radius: 0px 0px 0px 5px;
+}
+
+.rectangle22 {
+  position: absolute;
+  width: 5.6px;
+  height: 5.6px;
+  left: 338.2px;
+  top: 1226.4px;
+  background: var(--primary);
+  border-radius: 0px 0px 0px 5px;
+}
+
+.rectangle21 {
+  position: absolute;
+  width: 5.6px;
+  height: 5.6px;
+  left: 327px;
+  top: 1226.4px;
+  background: var(--primary);
+  border-radius: 0px 0px 0px 5px;
+}
+
+.rectangle20 {
+  position: absolute;
+  width: 5.6px;
+  height: 5.6px;
+  left: 327px;
+  top: 1215.2px;
+  background: var(--primary);
+  border-radius: 0px 0px 0px 5px;
+}
+
+.rectangle19 {
+  position: absolute;
+  width: 5.6px;
+  height: 5.6px;
+  left: 338.2px;
+  top: 1215.2px;
+  background: var(--primary);
+  border-radius: 0px 0px 0px 5px;
+}
+
+.rectangle18 {
+  position: absolute;
+  width: 5.6px;
+  height: 5.6px;
+  left: 349.4px;
+  top: 1215.2px;
+  background: var(--primary);
+  border-radius: 0px 0px 0px 5px;
+}
+
+.rectangle17 {
+  position: absolute;
+  width: 5.6px;
+  height: 5.6px;
+  left: 349.4px;
+  top: 1204px;
+  background: var(--primary);
+  border-radius: 0px 0px 0px 5px;
+}
+
+.rectangle16 {
+  position: absolute;
+  width: 5.6px;
+  height: 5.6px;
+  left: 338.2px;
+  top: 1204px;
+  background: var(--primary);
+  border-radius: 0px 0px 0px 5px;
+}
+
+.rectangle15 {
+  position: absolute;
+  width: 5.6px;
+  height: 5.6px;
+  left: 327px;
+  top: 1204px;
+  background: var(--primary);
+  border-radius: 0px 0px 0px 5px;
+}
+
+.novePontos {
+  height: 199px;
+}
+
+.produtos-destaque {
+  width: 1274px;
+  margin: 0 auto;
+}
+
+.cardProduto {
+  display: flex;
+}
+
+.card {
   width: 350px;
   height: 602px;
-  left: 402px;
-  top: 1321px;
-
   box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.07);
-
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
 }
 
-.imgProduto {
-  width: 203px;
-  height: 315px;
+.imagem {
+  width: 200px;
+  height: 407px;
+  margin-top: 50px;
+  margin-left: 60px;
 }
 
-.linhaProduto {
-  position: absolute;
+.divisoria {
   width: 350px;
   height: 2px;
-  left: 0px;
-  top: 600px;
   background: var(--primary);
 }
 
-.precoProduto {
-  position: absolute;
-  width: 84px;
-  height: 21px;
-  left: 55px;
-  top: 678px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  line-height: 21px;
-
-  color: var(--dark);
-}
-
-.tabalaPreco {
-  z-index: 1;
-}
-
-.backgroundPreco {
-  position: absolute;
+.tabelaPreco {
   width: 350px;
   height: 185px;
-  left: 0;
-  top: 604px;
-
   background: #f5f5f5;
   border-radius: 0px 0px 10px 10px;
 }
 
 .tituloProduto {
-  position: absolute;
   width: 58px;
   height: 16px;
-  left: 57px;
-  top: 627px;
-
+  margin-top: 44px;
+  margin-left: 55px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
+
   color: var(--dark);
 }
 
-.backgroundCompra {
-  position: absolute;
-  width: 240px;
-  height: 52px;
-  left: 49px;
-  top: 721px;
-  background: var(--primary);
-  border-radius: 5px;
-
-  transition: 0.7s;
-  cursor: pointer;
-}
-
-.backgroundCompra:hover {
-  background: var(--dark);
-}
-
-.comprar {
-  position: absolute;
-  width: 142px;
-  height: 17px;
-  left: 50px;
-  top: 16px;
-
+.preco {
+  width: 84px;
+  height: 21px;
+  margin-top: 15px;
+  margin-left: 55px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 18px;
   line-height: 21px;
-  text-align: center;
 
-  color: var(--light);
+  color: var(--dark);
+}
+
+.botaoProduto {
+  width: 240px;
+  height: 52px;
+  margin-top: 20px;
+  margin-left: 55px;
+  background: var(--primary);
+  text-decoration: none;
+  border-radius: 5px;
   cursor: pointer;
+  border: none;
+  transition: 1s;
 }
 
-.card2 {
-  position: absolute;
-  width: 350px;
-  height: 602px;
-  left: 785px;
-  top: 1321px;
-
-  box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.07);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.botaoProduto:hover {
+  background: var(--dark);
 }
 
-.card3 {
-  position: absolute;
-  width: 350px;
-  height: 602px;
-  left: 1168px;
-  top: 1321px;
+.botaoProdutoComprado {
+  width: 240px;
+  height: 52px;
+  margin-top: 20px;
+  margin-left: 55px;
+  background: var(--dark);
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+}
 
-  box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.07);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.spanComprar {
+  color: var(--light);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
 }
